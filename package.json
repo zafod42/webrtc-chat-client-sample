@@ -12,7 +12,8 @@
     "url": "https://github.com/mdn/samples-server.git"
   },
   "scripts": {
-    "postinstall": "cp node_modules/webrtc-adapter/out/adapter.js ."
+    "postinstall": "cp node_modules/webrtc-adapter/out/adapter.js .",
+    "start": "./startup.sh"
   },
   "dependencies": {
     "webrtc-adapter": "^1.4.0",
